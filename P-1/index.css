@@ -78,6 +78,15 @@ body{
     display: none;
 }
 
+#my-projects{
+    display: none;
+}
+
 .bi{
     font-size: 50px;
+}
+
+.p-1{
+    border: solid #D27D2D 5px;
+    cursor: pointer;
 }
