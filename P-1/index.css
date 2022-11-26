@@ -1,0 +1,83 @@
+body{
+    background-color: #FFFAF1;
+}
+.container{
+    margin-top: -50px;
+}
+/* intro */
+
+.intro{
+    border-radius: 30px;
+    border: solid 10px #D27D2D;
+    /* box-shadow: 0px 4px 20px 0px #00000040; */
+}
+
+
+.name{
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 42px;
+    color: #A52A2A;
+}
+
+.major{
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: 600;
+}
+.teknologi{
+    color: #A52A2A;
+}
+
+.univ{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+/* content-title */
+
+.content-title{
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Raleway;
+}
+
+.tentang{
+    color: #800020;
+    border-bottom: solid 5px #FFCEA0;
+}
+
+.content{
+    border-radius: 30px;
+
+}
+
+.self-desc{
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.content-1{
+    border-radius: 30px;
+    border: 10px solid #A52A2A
+}
+
+.js{
+    width: 10rem;
+}
+
+/* content */
+
+#my-skills{
+    display: none;
+}
+
+#get-me{
+    display: none;
+}
+
+.bi{
+    font-size: 50px;
+}
