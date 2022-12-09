@@ -86,7 +86,19 @@ body{
     font-size: 50px;
 }
 
-.p-1{
+.row > .p-1{
     border: solid #D27D2D 5px;
     cursor: pointer;
+    transition: 0.3s;
 }
+
+.row >.p-1:hover{
+    transform: scale(1.1);
+}
+
+.project{
+    border-radius: 30px;
+    background-color: #800020;
+    transition: 0.5s;
+}
+
