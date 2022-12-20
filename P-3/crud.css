@@ -1,0 +1,78 @@
+ol, ul {
+	list-style: none;
+}
+
+
+html, body, div, span,
+h1, h2, h3, h4, h5,a, h6, p{
+    margin: 0;
+	padding: 0;
+	border: 0;
+    color: inherit;
+    text-decoration: none;
+}
+
+.container-tabel{
+    margin-top: 1rem;
+}
+
+.nav-link{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Raleway;
+    color: rgb(80, 19, 138);
+    transition: 100ms;
+}
+
+.nav-link:hover{
+    background-color: rgb(102, 43, 158);
+    color: white;
+}
+
+
+.table tbody tr:hover td, .table tbody tr:hover th {
+    transition: 0.3s;
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.btn-modal{
+    margin-left: 6em;
+    margin-top: 9rem;
+}
+
+.btn-create{
+    background-color: rgb(80, 19, 138);
+    font-weight: 700;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn-create:hover{
+    background-color: rgb(97, 34, 155);
+    color:white;
+}
+
+tr:nth-child(even){
+    color: rebeccapurple;
+}
+
+table{
+    font-family: Raleway;
+    font-weight: 500;
+}
+
+th{
+    color: rgb(102, 43, 158);
+}
+
+tbody{
+    cursor: pointer;
+}
+
+.bi{
+    font-size: 20px;
+}
+.bi:hover{
+    color: rgb(222, 199, 243);
+}
